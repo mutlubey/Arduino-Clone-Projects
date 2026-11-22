@@ -1,39 +1,55 @@
-# Arduino Clone Projects
+# Arduino Nano Type-C Clone
 
-A collection of custom-designed Arduino-compatible development boards, developed with a focus on hardware design, PCB layout, and manufacturing documentation.
+A custom-designed Arduino Nano-compatible development board featuring a USB Type-C connector.
 
-## Projects
+## Overview
 
-### Arduino Nano Type-C
+This project focuses on designing a compact Arduino Nano-compatible development board, including its schematic, PCB layout, and manufacturing documentation.
 
-A custom Arduino Nano-compatible development board featuring a USB Type-C connector.
+## Design Features
 
-**Project documentation includes:**
-- Schematic design
-- PCB layout
-- Gerber manufacturing files
-- Bill of Materials (BOM)
-- Pick and Place files
-- 3D PCB views
+- Arduino Nano-compatible form factor
+- USB Type-C connector
+- ATmega328P microcontroller
+- CH340 USB-to-serial interface
+- 16 MHz clock
+- Reset button
+- GPIO, power, and serial connections
 
-**Design files and documentation:** [Nano-Type-C](./Nano-Type-C/)
+## 3D PCB Views
 
-### Upcoming Projects
-- Arduino UNO Clone
-- Arduino MEGA Clone
+Visual renders of the PCB design:
 
-## Tools & Technologies
-- Electronic circuit design
-- PCB design and layout
-- Gerber generation
-- BOM and Pick and Place documentation
+![PCB 3D Front View](./Images/nano-type-c-3d-front.png)
+
+![PCB 3D Back View](./Images/nano-type-c-3d-back.png)
+
+![PCB Layer View](./Images/nano-type-c-pcb-layers.png)
+
+## Project Structure
+
+| Directory | Contents |
+|---|---|
+| `Design-Files/Schematic/` | Circuit schematic |
+| `Design-Files/PCB/` | PCB layout source |
+| `Manufacturing/Gerber/` | PCB manufacturing files |
+| `Manufacturing/BOM/` | Bill of Materials |
+| `Manufacturing/Pick-and-Place/` | Component placement data |
+| `Images/` | PCB renders and design views |
+| `3D-Model/` | Exported 3D model files |
+
+## Design Software
+
+- EasyEDA
 
 ## Project Status
-The Arduino Nano Type-C design files are being documented. Hardware testing and manufacturing status will be updated when available.
 
-## Language
-- [Türkçe](./README_TR.md)
+Design files and manufacturing outputs are available. Physical production and hardware testing status will be documented separately.
+
+## License
+
+License information will be added after the project licensing terms are determined.
 
 ---
 
-Developed as an independent hardware design project.
+[Back to Main Repository](../README.md) | [Türkçe](../README_TR.md)
